@@ -1,4 +1,4 @@
-testLabel: i am service-index!@!---
+testLabel: i am service-index!@!---hello hello how are you
 #service配置----------------------------------
 service:
   server:
