@@ -1,0 +1,30 @@
+testLabel: i am service-index!@!
+#service配置----------------------------------
+service:
+  server:
+    port: 9510
+eureka:
+  serviceUrl: http://127.0.0.1:8501/eureka/
+rabbitmq:
+  host: 192.168.17.129
+  port: 5672
+  username: guest
+  password: guest
+config:
+  server:
+    username: user
+    password: 16a22029-8fa3-47a7-91eb-6b0ecc2d0463
+zipkin:
+  server:
+    url: http://localhost:8504/
+fdfsFilePrefix:
+  IP: http://192.168.0.123:8888
+druid:
+  url: jdbc:mysql://localhost:3306/dataservice?Unicode=true&amp;characterEncoding=utf8
+  driver-class: com.mysql.jdbc.Driver
+  username: root
+  password: a1234
+  initial-size: 1
+  min-idle: 1
+  max-active: 20
+  test-on-borrow: true
